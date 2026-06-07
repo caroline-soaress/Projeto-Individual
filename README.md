@@ -260,38 +260,6 @@ Abra o navegador em: [http://localhost:3333](http://localhost:3333)
 
 ---
 
-## Variáveis de Ambiente
-
-### `.env.dev` — Desenvolvimento (banco local)
-
-```env
-AMBIENTE_PROCESSO=desenvolvimento
-
-DB_HOST=localhost
-DB_DATABASE='hp'
-DB_USER='seu_usuario'
-DB_PASSWORD='sua_senha'
-DB_PORT=3306
-
-APP_PORT=3333
-APP_HOST=localhost
-```
-
-### `.env` — Produção (banco remoto)
-
-```env
-AMBIENTE_PROCESSO=producao
-
-DB_HOST='host_remoto'
-DB_DATABASE='nome_banco'
-DB_USER='usuario_remoto'
-DB_PASSWORD='senha_remota'
-DB_PORT='porta'
-
-APP_PORT=8080
-APP_HOST=localhost
-```
-
 ## Como Usar
 
 1. **Acesse a página inicial** e explore o conteúdo sobre o universo Harry Potter.
