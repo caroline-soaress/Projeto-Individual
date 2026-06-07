@@ -292,10 +292,6 @@ APP_PORT=8080
 APP_HOST=localhost
 ```
 
-> ⚠️ **Atenção:** Nunca suba arquivos `.env` com credenciais reais para o repositório. Certifique-se de que `.env` e `.env.dev` estão listados no `.gitignore`.
-
----
-
 ## Como Usar
 
 1. **Acesse a página inicial** e explore o conteúdo sobre o universo Harry Potter.
